@@ -175,6 +175,30 @@
         },
         {
           "@type": "Question",
+          "name": "Which PICCO room should I choose for my shoot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose Playground for photo and video shoots with cyclorama or flexible sets, Snap-o-rama for self portraits, Jam Room for podcasts and interviews, and Picco Motel for themed room shoots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PICCO include lighting and shoot support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PICCO lists studio lighting, backdrops, props, make-up room access, setup assistance, meeting pods and an in-house creative team on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I record a podcast at PICCO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Jam Room is a sound-insulated podcast and interview room in Vyttila, Kochi with audio recording and video options."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "How do I book PICCO?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -191,6 +215,122 @@
         {"@type": "ListItem", "position": 2, "name": "Studios", "item": "https://piccothepictureco.com/#studios"},
         {"@type": "ListItem", "position": 3, "name": "Visit", "item": "https://piccothepictureco.com/#contact"}
       ]
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["LocalBusiness", "ProfessionalService"],
+      "@id": "https://piccothepictureco.com/#localbusiness",
+      "hasOfferCatalog": {"@id": "https://piccothepictureco.com/#studio-catalog"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://piccothepictureco.com/#webpage",
+      "mainEntity": {"@id": "https://piccothepictureco.com/#service-list"}
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://piccothepictureco.com/#studio-catalog",
+      "name": "PICCO studio rental catalog",
+      "url": "https://piccothepictureco.com/#studios",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "@id": "https://piccothepictureco.com/#offer-playground",
+          "name": "Playground photo and video studio rental",
+          "price": "3000",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://piccothepictureco.com/#studios",
+          "itemOffered": {"@id": "https://piccothepictureco.com/#service-photo-video-studio"}
+        },
+        {
+          "@type": "Offer",
+          "@id": "https://piccothepictureco.com/#offer-snap-o-rama",
+          "name": "Snap-o-rama self portrait studio",
+          "price": "2000",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://piccothepictureco.com/#studios",
+          "itemOffered": {"@id": "https://piccothepictureco.com/#service-self-portrait-studio"}
+        },
+        {
+          "@type": "Offer",
+          "@id": "https://piccothepictureco.com/#offer-jam-room",
+          "name": "Jam Room podcast studio rental",
+          "price": "4000",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://piccothepictureco.com/#studios",
+          "itemOffered": {"@id": "https://piccothepictureco.com/#service-podcast-studio"}
+        },
+        {
+          "@type": "Offer",
+          "@id": "https://piccothepictureco.com/#offer-picco-motel",
+          "name": "Picco Motel themed room rental",
+          "price": "4000",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://piccothepictureco.com/#studios",
+          "itemOffered": {"@id": "https://piccothepictureco.com/#service-themed-studio"}
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://piccothepictureco.com/#service-list",
+      "name": "PICCO studio services",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "item": {"@id": "https://piccothepictureco.com/#service-photo-video-studio"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://piccothepictureco.com/#service-self-portrait-studio"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://piccothepictureco.com/#service-podcast-studio"}},
+        {"@type": "ListItem", "position": 4, "item": {"@id": "https://piccothepictureco.com/#service-themed-studio"}}
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://piccothepictureco.com/#service-photo-video-studio",
+      "name": "Photo and video studio rental in Kochi",
+      "serviceType": "Photo studio rental, video studio rental, cyclorama studio rental",
+      "description": "Hourly, half-day and full-day access to a multi-set studio in Vyttila, Kochi with cyclorama, backdrops, props, lighting and setup support.",
+      "provider": {"@id": "https://piccothepictureco.com/#localbusiness"},
+      "areaServed": [{"@type": "City", "name": "Kochi"}, {"@type": "AdministrativeArea", "name": "Ernakulam"}],
+      "offers": {"@id": "https://piccothepictureco.com/#offer-playground"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://piccothepictureco.com/#service-self-portrait-studio",
+      "name": "Self portrait studio in Kochi",
+      "serviceType": "Self portrait photography studio",
+      "description": "Snap-o-rama is a self-portrait studio in Kochi for individuals, couples, fashion creators, pet shoots and quick creative portraits.",
+      "provider": {"@id": "https://piccothepictureco.com/#localbusiness"},
+      "areaServed": [{"@type": "City", "name": "Kochi"}, {"@type": "AdministrativeArea", "name": "Ernakulam"}],
+      "offers": {"@id": "https://piccothepictureco.com/#offer-snap-o-rama"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://piccothepictureco.com/#service-podcast-studio",
+      "name": "Podcast studio in Kochi",
+      "serviceType": "Podcast studio rental, interview studio rental, audio recording room",
+      "description": "Jam Room is a sound-insulated podcast and interview studio in Vyttila, Kochi with video options for long-form conversations.",
+      "provider": {"@id": "https://piccothepictureco.com/#localbusiness"},
+      "areaServed": [{"@type": "City", "name": "Kochi"}, {"@type": "AdministrativeArea", "name": "Ernakulam"}],
+      "offers": {"@id": "https://piccothepictureco.com/#offer-jam-room"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://piccothepictureco.com/#service-themed-studio",
+      "name": "Themed room photoshoot studio in Kochi",
+      "serviceType": "Themed studio rental, creative room rental",
+      "description": "Picco Motel offers themed creative rooms in Kochi for stylised photoshoots, fashion shoots, brand content and private creative bookings.",
+      "provider": {"@id": "https://piccothepictureco.com/#localbusiness"},
+      "areaServed": [{"@type": "City", "name": "Kochi"}, {"@type": "AdministrativeArea", "name": "Ernakulam"}],
+      "offers": {"@id": "https://piccothepictureco.com/#offer-picco-motel"}
     }
   ]
 }
@@ -1856,6 +1996,93 @@ nav.hidden{transform:translate3d(0, -100%, 0);}
 }
 
 /* ============================================
+   SERVICE INDEX
+   ============================================ */
+.service-index{
+  background:var(--cream);
+  padding:112px 38px;
+}
+.service-index-inner{
+  max-width:1280px;
+  margin:0 auto;
+}
+.service-index-head{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:56px;
+  align-items:end;
+  margin-bottom:52px;
+}
+.service-index h2{
+  font-family:'Instrument Serif', serif;
+  font-size:clamp(2.5rem, 8vw, 6.2rem);
+  font-weight:400;
+  line-height:.9;
+  letter-spacing:0;
+  margin-top:16px;
+}
+.service-index h2 em{
+  font-style:italic;
+  color:var(--picco);
+}
+.service-index-head p{
+  color:var(--ink-soft);
+  font-size:17px;
+  line-height:1.55;
+  max-width:470px;
+}
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:14px;
+}
+.service-card{
+  border:1.5px solid var(--ink);
+  background:var(--white);
+  border-radius:8px;
+  padding:24px;
+  min-height:260px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.service-card h3{
+  font-family:'Instrument Serif', serif;
+  font-size:30px;
+  font-weight:400;
+  line-height:1;
+  margin:12px 0 12px;
+}
+.service-card p{
+  color:var(--ink-soft);
+  font-size:14px;
+  line-height:1.5;
+}
+.service-card .label{
+  color:var(--picco-deep);
+}
+.service-card .service-price{
+  font-family:'JetBrains Mono', monospace;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--ink);
+  margin-top:24px;
+}
+
+@media(max-width:980px){
+  .service-grid{grid-template-columns:repeat(2, 1fr);}
+}
+@media(max-width:880px){
+  .service-index{padding:80px 22px;}
+  .service-index-head{grid-template-columns:1fr; gap:28px;}
+}
+@media(max-width:560px){
+  .service-grid{grid-template-columns:1fr;}
+  .service-card{min-height:220px;}
+}
+
+/* ============================================
    ANSWER ENGINE FAQ
    ============================================ */
 .seo-faq{
@@ -2278,6 +2505,7 @@ html.js .reveal-mask.in img{transform:scale(1);}
   </a>
   <div class="nav-links">
     <a href="#about" data-text="About"><span>About</span></a>
+    <a href="#services" data-text="Services"><span>Services</span></a>
     <a href="#studios" data-text="Studios"><span>Studios</span></a>
     <a href="#wow" data-text="Why"><span>Why</span></a>
     <a href="#gallery" data-text="Gallery"><span>Gallery</span></a>
@@ -2558,6 +2786,53 @@ html.js .reveal-mask.in img{transform:scale(1);}
   </div>
 </section>
 
+<!-- ============ SERVICE INDEX ============ -->
+<section class="service-index" id="services">
+  <div class="service-index-inner">
+    <div class="service-index-head">
+      <div>
+        <span class="label">— Studio services</span>
+        <h2 class="reveal">Search less.<br><em>Shoot sooner.</em></h2>
+      </div>
+      <p class="reveal">PICCO is built for creators and brands searching for a photo studio, video studio, podcast room or themed shoot space in Vyttila, Kochi. Choose the room by use case, budget and session length.</p>
+    </div>
+    <div class="service-grid">
+      <article class="service-card reveal" id="photo-video-studio-kochi">
+        <div>
+          <span class="label">Photo · Video</span>
+          <h3>Photo &amp; video studio rental in Kochi</h3>
+          <p>Book Playground for photoshoots, video shoots, product content, campaigns and cyclorama work with lighting, backdrops and setup support.</p>
+        </div>
+        <div class="service-price">From INR 3,000 / first hour</div>
+      </article>
+      <article class="service-card reveal" id="self-portrait-studio-kochi">
+        <div>
+          <span class="label">Self portraits</span>
+          <h3>Self portrait studio in Kochi</h3>
+          <p>Use Snap-o-rama for solo portraits, couple shoots, pet portraits, fashion tests and quick creator sessions with print options.</p>
+        </div>
+        <div class="service-price">From INR 2,000 / 30 min</div>
+      </article>
+      <article class="service-card reveal" id="podcast-studio-kochi">
+        <div>
+          <span class="label">Podcast · Interview</span>
+          <h3>Podcast studio in Kochi</h3>
+          <p>Record in Jam Room, a sound-insulated podcast and interview space with video options for conversations, shows and branded content.</p>
+        </div>
+        <div class="service-price">From INR 4,000 / first hour</div>
+      </article>
+      <article class="service-card reveal" id="themed-studio-kochi">
+        <div>
+          <span class="label">Themed rooms</span>
+          <h3>Themed shoot studio in Kochi</h3>
+          <p>Choose Picco Motel for stylised photoshoots, fashion content, private room bookings and campaign visuals that need a designed set.</p>
+        </div>
+        <div class="service-price">From INR 4,000 / 3 hours</div>
+      </article>
+    </div>
+  </div>
+</section>
+
 <!-- ============ ANSWER ENGINE FAQ ============ -->
 <section class="seo-faq" id="faq">
   <div class="seo-faq-inner">
@@ -2581,6 +2856,18 @@ html.js .reveal-mask.in img{transform:scale(1);}
       <article class="faq-item reveal">
         <h3>How much does a PICCO studio booking cost?</h3>
         <p>Published rates start at INR 2,000 for a 30-minute Snap-o-rama session, INR 3,000 for the first hour at Playground, INR 4,000 for the first hour at Jam Room and INR 4,000 for a three-hour Picco Motel session.</p>
+      </article>
+      <article class="faq-item reveal">
+        <h3>Which PICCO room should I choose for my shoot?</h3>
+        <p>Choose Playground for photo and video shoots with cyclorama or flexible sets, Snap-o-rama for self portraits, Jam Room for podcasts and interviews, and Picco Motel for themed room shoots.</p>
+      </article>
+      <article class="faq-item reveal">
+        <h3>Does PICCO include lighting and shoot support?</h3>
+        <p>PICCO lists studio lighting, backdrops, props, make-up room access, setup assistance, meeting pods and an in-house creative team on request.</p>
+      </article>
+      <article class="faq-item reveal">
+        <h3>Can I record a podcast at PICCO?</h3>
+        <p>Yes. Jam Room is a sound-insulated podcast and interview room in Vyttila, Kochi with audio recording and video options.</p>
       </article>
       <article class="faq-item reveal">
         <h3>How do I book PICCO?</h3>

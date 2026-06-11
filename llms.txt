@@ -5,6 +5,7 @@
 ## Primary Pages
 
 - [PICCO homepage](https://piccothepictureco.com/): Overview of PICCO, studio spaces, pricing, inclusions, location and booking options.
+- [Services](https://piccothepictureco.com/#services): High-intent service summary for photo studio rental, self portraits, podcast recording and themed shoot rooms.
 - [Studios](https://piccothepictureco.com/#studios): Playground, Snap-o-rama, Jam Room and Picco Motel room descriptions with prices.
 - [Why PICCO](https://piccothepictureco.com/#wow): Reasons to choose PICCO, including transparent rates, visible room types and real studio views.
 - [Visit PICCO](https://piccothepictureco.com/#contact): Address, phone, email, Instagram and opening hours.
@@ -27,6 +28,13 @@
 - Snap-o-rama: Self-portrait studio for individuals, couples, fashion, pets and quick creative portraits.
 - Jam Room: Sound-insulated room for podcasts, interviews and video-backed audio recording.
 - Picco Motel: Themed creative room experience for stylised shoots and private room bookings.
+
+## Service Catalog
+
+- Photo and video studio rental in Kochi: Playground, from INR 3,000 for the first hour.
+- Self portrait studio in Kochi: Snap-o-rama, from INR 2,000 for 30 minutes.
+- Podcast studio in Kochi: Jam Room, from INR 4,000 for the first hour.
+- Themed room photoshoot studio in Kochi: Picco Motel, from INR 4,000 for 3 hours.
 
 ## Use Cases
 
