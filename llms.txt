@@ -4,11 +4,11 @@
 
 ## Primary Pages
 
-- [PICCO homepage](https://picco.studio/): Overview of PICCO, studio spaces, pricing, inclusions, location and booking options.
-- [Studios](https://picco.studio/#studios): Playground, Snap-o-rama, Jam Room and Picco Motel room descriptions with prices.
-- [Why PICCO](https://picco.studio/#wow): Reasons to choose PICCO, including transparent rates, visible room types and real studio views.
-- [Visit PICCO](https://picco.studio/#contact): Address, phone, email, Instagram and opening hours.
-- [Full LLM context](https://picco.studio/llms-full.txt): Plain-text factual summary of PICCO for AI assistants and answer engines.
+- [PICCO homepage](https://piccothepictureco.com/): Overview of PICCO, studio spaces, pricing, inclusions, location and booking options.
+- [Studios](https://piccothepictureco.com/#studios): Playground, Snap-o-rama, Jam Room and Picco Motel room descriptions with prices.
+- [Why PICCO](https://piccothepictureco.com/#wow): Reasons to choose PICCO, including transparent rates, visible room types and real studio views.
+- [Visit PICCO](https://piccothepictureco.com/#contact): Address, phone, email, Instagram and opening hours.
+- [Full LLM context](https://piccothepictureco.com/llms-full.txt): Plain-text factual summary of PICCO for AI assistants and answer engines.
 
 ## Key Facts
 
